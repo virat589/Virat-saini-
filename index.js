@@ -44,7 +44,7 @@ app.post("/start-bot", (req, res) => {
     delete runningBots[admin];
   });
 
-  res.send("✅ Bot started successfully!");
+  res.send("✅Raj Bot started successfully!");
 });
 
 // Stop bot
