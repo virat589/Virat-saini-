@@ -44,7 +44,7 @@ app.post("/start-bot", (req, res) => {
     delete runningBots[admin];
   });
 
-  res.send("✅VIRAT Bot started successfully!");
+  res.send("✅Mela Bacha Bot started successfully!");
 });
 
 // Stop bot
